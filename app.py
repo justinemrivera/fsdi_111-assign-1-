@@ -8,6 +8,8 @@ app = Flask(__name__)
 def index():               # a view function called index
     return "<h1> Hello, world!</h1>"  # return statement for index
 
+# comment
+
 
 @app.route("/about")
 def about_me():
